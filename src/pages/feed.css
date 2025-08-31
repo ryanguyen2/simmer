@@ -144,6 +144,27 @@
   display: inline-block;
 }
 
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+           
+  cursor: pointer;
+  background: none;
+  border: 0;
+}
+
+.story span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;   
+  max-width: 72px;       
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 
 .tag {
   background: #fff7ed;
