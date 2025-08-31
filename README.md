@@ -1,4 +1,4 @@
-# 🍳 Simmer — Social Cooking (Frontend-Only Demo)
+# 🍳 Simmer (Frontend-Only Demo, Back-End currently in the works!)
 
 An Instagram-style recipe app where cooks share posts (full recipes with ingredients/steps) and short-lived stories. Built with React + Vite and a warm red → orange → yellow palette. For this portfolio build, Simmer runs entirely in the browser—no backend or database. A lightweight fakeApi persists data in localStorage, supports file uploads (compressed to data-URLs), demo user switching, and seed reset so reviewers can click around instantly.
 
@@ -7,10 +7,8 @@ An Instagram-style recipe app where cooks share posts (full recipes with ingredi
 
 ## 🧰 Languages / Tools
 
-Frontend: React (Vite), JavaScript, HTML, CSS
-Auth (optional): Clerk (publishable key only; demo fallback included)
-Storage: localStorage via src/lib/fakeApi.js (seed data, posts, stories, comments, likes, saves)
-Assets: SVG logo, NBA avatars (JPG)
+**Frontend:** React (Vite), JavaScript, HTML, CSS
+**Storage:** localStorage via src/lib/fakeApi.js (seed data, posts, stories, comments, likes, saves)
 
 ## ✨ Key Features
 
