@@ -45,9 +45,9 @@ Polished UX details
 
 ## 📸 Screenshots
 
-!(Screenshots/s1.png) 
-!(Screenshots/s2.png) 
-!(Screenshots/s3.png) 
-!(Screenshots/s4.png) 
-!(Screenshots/s5.png) 
-!(Screenshots/s6.png) 
+![](Screenshots/s1.png) 
+![](Screenshots/s2.png) 
+![](Screenshots/s3.png) 
+![](Screenshots/s4.png) 
+![](Screenshots/s5.png) 
+![](Screenshots/s6.png) 
