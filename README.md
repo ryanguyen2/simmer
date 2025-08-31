@@ -50,4 +50,4 @@ Polished UX details
 ![](Screenshots/s3.png) 
 ![](Screenshots/s4.png) 
 ![](Screenshots/s5.png) 
-![](Screenshots/s6.png) 
+![](Screenshots/s6v2.png) 
