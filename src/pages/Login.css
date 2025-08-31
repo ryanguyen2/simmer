@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+
+:root {
+  --brand1: #ef4444;
+  --brand2: #f97316;
+  --brand3: #f59e0b;
+  --brand-grad: linear-gradient(90deg, var(--brand1), var(--brand2) 55%, var(--brand3));
+
+  --text: #0e1020;
+  --muted: #6b7280;
+  --border: #ece6df;
+
+  --radius: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+  background:
+    radial-gradient(1200px 600px at -10% -20%, rgba(239, 68, 68, 0.1), transparent),
+    radial-gradient(900px 600px at 110% -10%, rgba(245, 158, 11, 0.12), transparent),
+    linear-gradient(180deg, #fffaf5 0%, #fff 100%);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--text);
+}
+
+.login-shell {
+  width: min(980px, 94vw);
+  margin: 48px auto 56px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 24px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px;
+}
+
+.brand .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand .logo img {
+  width: 44px;
+  height: 44px;
+}
+
+.brand .logo .word {
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: 0.2px;
+  background: var(--brand-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.brand h1 {
+  margin: 12px 0 0;
+  font-size: 42px;
+  line-height: 1.08;
+  font-weight: 800;
+}
+
+.brand p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--muted);
+}
+
+.brand .features {
+  display: grid;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.brand .feature {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  gap: 10px;
+  align-items: start;
+}
+
+.brand .feature .dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--brand-grad);
+}
+
+.auth-col {
+  padding: 20px;
+  display: grid;
+  align-items: start;
+}
+
+.auth-card {
+  width: 100%;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 22px 10px;
+}
+
+.auth-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.auth-head .title {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.auth-head .meta {
+  display: flex;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.clerk-mount {
+  padding: 16px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+@media (max-width: 960px) {
+  .login-shell {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .auth-col {
+    order: -1;
+  }
+}

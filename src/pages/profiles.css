@@ -1,0 +1,110 @@
+:root{
+  --brand1: #ef4444;
+  --brand2: #f97316;
+  --brand3: #f59e0b;
+  --brand-grad: linear-gradient(90deg,var(--brand1),var(--brand2) 55%,var(--brand3));
+  --text: #0e1020;
+  --muted: #6b7280;
+  --border: #ece6df;
+  --bg: #fff;
+  --radius: 18px;
+}
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+.profile-page {
+  min-height: 100vh;
+  background: #fffaf5;
+}
+
+.profile-shell {
+  width: min(1100px, 92vw);
+  margin: 96px auto 64px;
+}
+
+.pheader {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 16px;
+}
+
+.pheader .avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.pheader .info .row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pheader h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.pheader .handle { color: var(--muted); margin-top: 2px; }
+.pheader .bio    { margin: 8px 0 0; }
+
+.pill {
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+.pill:hover { background: #fff7ed; }
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin: 14px 0 12px;
+}
+
+.tabs button {
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background: #fff7ed;
+  border-color: #ffd7b0;
+  color: #b45309;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(280px, 1fr) );
+  gap: 16px;
+}
+
+.empty {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+  text-align: center;
+  color: var(--muted);
+}
+
+
+.ph.sk { height: 132px; border-radius: 16px; background:#f2f2f2; margin-bottom: 12px; }
+.tabs.sk { height: 36px; border-radius: 999px; background:#f2f2f2; margin-bottom: 12px; }
+.grid .box.sk { height: 260px; border-radius: 16px; background:#f2f2f2; }
