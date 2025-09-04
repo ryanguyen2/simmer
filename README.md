@@ -2,8 +2,8 @@
 
 An Instagram-style recipe app where home-cooks share posts (full recipes with ingredients/steps) and stories. Built with React + Vite and a warm red, orange, yellow colour scheme. For this project, Simmer runs entirely in the browser—no backend or database (to be added soon).
 
-## 🔗 Demo Video
-[Watch HERE](https://youtu.be/gnRiBb1_8aI)
+## 🔗 DEMO VIDEO
+[Watch how it works HERE](https://youtu.be/gnRiBb1_8aI)
 
 ## 🧰 Languages / Tools
 
